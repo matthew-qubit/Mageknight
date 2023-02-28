@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(183, 183, 183);
+  font-size: 12px;
+}
+
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: center;
+  flex-direction: row;
+}
+
+table.basicCardDisplay {
+  border: 2px solid #000000;
+  width: 175px;
+  height: 225px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.basicCardDisplay td, table.basicCardDisplay th {
+  border: 1px solid #000000;
+  padding: 3px 4px;
+}
+
+table.unitCardDisplay {
+  border: 2px solid #000000;
+  width: 175px;
+  height: 225px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.unitCardDisplay td, table.unitCardDisplay th {
+  border: 1px solid #000000;
+  padding: 3px 4px;
+}
+
+.title { 
+  font-size: 16px;
+  font-weight: bold;
+  height: 26px;
+}
+
+.ability {
+  font-size: 12px;
+}
+
+.cost_White {
+  background-color: white;
+  color: black;
+}
+
+.cost_Green {
+  background-color: rgb(20, 189, 20);
+  color: white;
+}
+
+.cost_Red {
+ background-color: rgb(216, 19, 19);
+ color: white;
+}
+
+.cost_Blue {
+  background-color: rgb(27, 69, 255);
+ color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.cardListName {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 10px;
+}
+
+.space_around {
+  margin-bottom: 30px;
+  padding: 5px;
+}
